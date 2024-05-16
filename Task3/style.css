@@ -5,31 +5,25 @@ box-sizing:border-box;
 }
 body
 {
-width:100%;
-height:100%;
+width:100vw;
+/* border: 1px solid black; */
 }
 
 .container{
-  width:35%;
-  height: 350px;
-  margin:150px auto;
-  border:1px solid black;
+  box-sizing: border-box;
+  width:50vw;
+  padding: 10px 0;
+  margin:10px auto;
 }
-.img_container{
+
+.container img{
   width:100%;
-  height: 85%;
-}
-.img_container img{
-  width:100%;
-  height: 100%;
 }
 button{
   width:100%;
-  height: 15%;
-  padding:10px 15px;
+  padding:15px;
   background:linear-gradient(to right, #eef602, #28ff02);
   color:white;
-  font-size: 25px;
-  border:none;
+  font-size: 28px;
   cursor:pointer;
 }
