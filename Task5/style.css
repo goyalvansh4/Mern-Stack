@@ -1,0 +1,83 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body
+{
+width:100vw;
+/* border: 2px solid black; */
+}
+.container{
+  width:99.8vw;
+  height:100vh;
+  display: flex;
+  /* border: 1px solid green; */
+}
+.container .left_image{
+   width:50%;
+   height: 100%;
+   background-image: url('./Washing_Machine.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.container .right_content{
+   width:50%;
+   padding: 20px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+}
+.right_content .content{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.right_content form{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  margin-top: 10px;
+}
+.right_content h3{
+  font-size: 2.5rem;
+}
+.right_content p{
+  font-size: 1.2rem;
+}
+form label,input{
+  font-size: 1.2rem;
+}
+form input{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.right_content form p{
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: 10px;
+}
+form button{
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#register{
+  font-size: 1.2rem;
+  color: black;
+  margin-top: 10px;
+}
+#register a{
+  text-decoration: none;
+  color: #038bfb;
+  cursor: pointer;
+  padding-left: 2px;
+}
