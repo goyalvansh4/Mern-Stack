@@ -144,18 +144,22 @@ height:100%;
   .menu{
     position: relative;
   }
-  .menu .icon:focus{
+  .menu .icon:hover + .menu-list{
     cursor: pointer;
-  }
-  .menu .menu-list{
     position: absolute;
-    top:30px;
-    right:0px;
-    width:100%;
-    /* background-color: black; */
-    /* color:#fff; */
+    padding: 20px;
+    top:35px;
+    background-color: black;
+    right:-40%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap:50px;
+  }
+  .menu .icon:focus + .menu-list{
+    display: none;
+  }
+  .navbar ul li a{
+    color:#fff;
   }
 }
